@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home-page (Job portal)</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+</head>
+<body>
+    <div style="padding: 4%;">
+        
+    <h5 style="text-align: center;">WELCOME TO JOB PORTAL</h5>
+    <h1>Home page</h1>
+
+    </div>
+    
+    <form action = "" class="" style="padding: 7%;"> 
+       
+        <label for="select">Choose below as your looking for Job roles (or) Job titles (or) skilles </label>
+        <select id="select" class="form-control" style="border-color: black;">
+            
+            <option value ="frontend">Frontend developer</option>
+            <option value ="php">PHP developer</option>
+            ,<option value ="python">Python developer</option>
+            <option value ="web">Web designer</option>
+            <option value ="android"> Android developer</option>
+            <option value ="ios">IOS developer</option>
+            <option value ="backend">Backend developer</option>
+            <option value ="full-stack">Full-stack developer</option>
+            <option value ="react">React js developer</option>
+            <option value ="node" >Node js developer</option>
+            <option value ="dotnet">Dotnet developer</option>
+            <option value ="software">Software developer</option>
+            
+        </select> <br>
+        <label for="file" class="">Upload a Resume</label>
+        <input type="file" id="file" class="form-control" name="file" accept=".pdf" style="border-color:black;" />
+    
+        <h6 class="mt-3">Interests:</h6>
+        
+        <input type="checkbox" id="develop" class="">
+        <label for="develop" class="mt-">Design</label>   <br>
+
+        <input type="checkbox" id="develop" class="" checked>
+        <label for="develop" class="mt-" >Development</label> <br>
+        
+        <input type="checkbox" id="develop" class="">
+        <label for="develop" class="mt-">Business</label>  <br>
+    
+        <textarea placeholder="enter a Summary based on Job Description in 50 words. . . . . .  " class="mt-4" rows="4" cols="72"></textarea> </br>
+
+        <input type ="submit" class = "mt-4 btn btn-primary" value ="show jobs" name ="showjobs" />
+
+
+    </form>
+</body>
+</html>
